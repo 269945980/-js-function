@@ -1,4 +1,4 @@
-整数验证
+//整数验证
 <input type ="text" value ="" onkeyup ="NumberCheck(this)"/>
 function NumberCheck(t){
     var num = t.value;
