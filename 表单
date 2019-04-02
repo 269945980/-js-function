@@ -1,6 +1,6 @@
 整数验证
 <input type ="text" value ="" onkeyup ="NumberCheck(this)"/>
-function NumberCheck（t）{
+function NumberCheck(t){
     var num = t.value;
     var re=/^\d*$/;
     if(!re.test(num)){
